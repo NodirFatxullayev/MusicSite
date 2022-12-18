@@ -6,8 +6,10 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 /* Header bo'limi */
 header {
     width: 1440px;
@@ -51,7 +53,139 @@ header .nav .nav-menu {
     color: #fff;
     transition: all 0.2s;
 }
-.nav-menu .nav-item .nav-link:hover{
+
+.nav-menu .nav-item .nav-link:hover {
     color: #118DA8;
 }
+
 /*----------------------------------------- Header Finish */
+/* Home Page */
+.home {
+    width: 1440px;
+    height: 913px;
+    background-color: #191919;
+    padding: 40px 70px 0.5px;
+    position: relative;
+}
+
+.home-page {
+    width: 1300px;
+    height: 873.44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.home-page>img {
+    width: 650px;
+    height: 873px;
+}
+
+.home-page .text {
+    width: 530px;
+    height: 610.58px;
+    position: relative;
+    padding-top: 163px;
+}
+
+.home-page .text p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+}
+
+.home-page .text>img {
+    width: 163px;
+    height: 11px;
+    position: absolute;
+    bottom: 179px;
+    right: 367px;
+}
+
+.home-page .text span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 70px;
+    left: 22px;
+}
+
+.home-page .text .icons {
+    width: 245px;
+    height: 32px;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-page .text .icons img {
+    width: 32px;
+    height: 32px;
+}
+
+.home-png {
+    width: 68px;
+    height: 74px;
+    position: absolute;
+    top: 14px;
+    left: 44px;
+}
+
+/*----------------------------------------- HomePage Finish */
+/* Episodes Page */
+
+.episodes {
+    width: 1440px;
+    height: 2088px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100.44px 50px 0;
+}
+
+.title {
+    width: 1300px;
+    height: 99px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+
+.title button {
+    width: 178px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #118DA8;
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
