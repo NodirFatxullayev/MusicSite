@@ -158,7 +158,6 @@ header .nav .nav-menu {
 .title {
     width: 1300px;
     height: 99px;
-    border: 1px solid #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,4 +187,98 @@ header .nav .nav-menu {
     font-size: 17px;
     line-height: 27px;
     color: #FFFFFF;
+}
+
+.episodes .cards {
+    width: 1300px;
+    height: 1689px;
+    margin-top: 39.56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.episodes .cards .card {
+    width: 1300px;
+    height: 545px;
+    background: #000000;
+    border-radius: 32px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.episodes .cards .card img {
+    width: 389px;
+    height: 465px;
+}
+
+.episodes .cards .card .text {
+    width: 778px;
+    height: 465px;
+    position: relative;
+}
+
+.episodes .cards .card .text * {
+    position: absolute;
+}
+
+.episodes .cards .card .text .btn1 {
+    padding: 0 16px;
+    width: auto;
+    height: 27px;
+    background: #191919;
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    top: 7.56px;
+}
+
+.episodes .cards .card .text span {
+    top: 83px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+}
+
+.episodes .cards .card .text h1 {
+    top: 127.56px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+}
+
+.episodes .cards .card .text p {
+    top: 296.56px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.episodes .cards .card .text .btn2 {
+    top: 413.56px;
+    padding: 12px 15px 12px 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #118DA8;
+    border-radius: 6px;
 }
