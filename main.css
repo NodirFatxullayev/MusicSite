@@ -282,3 +282,191 @@ header .nav .nav-menu {
     background: #118DA8;
     border-radius: 6px;
 }
+
+/*----------------------------------------- Episodes Finish */
+/* Form Page */
+.form {
+    width: 1440px;
+    height: 1530.44px;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form .page-one {
+    width: 1440px;
+    height: 943px;
+    padding: 0 20px;
+}
+
+.form .page-one .container {
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-one .container .text {
+    width: 590px;
+    height: 448px;
+    position: relative;
+}
+
+.page-one .container .text img {
+    width: 112px;
+    height: 112px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-one .container .text span {
+    position: absolute;
+    top: 131.84px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+
+.page-one .container .text h1 {
+    position: absolute;
+    top: 156.84px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+
+.page-one .container .text .text-one {
+    position: absolute;
+    top: 264.84px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.page-one .container .text .text-twoo {
+    position: absolute;
+    top: 363.84px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.page-one .container>img {
+    width: 650px;
+    height: 743px;
+}
+
+.form .page-twoo {
+    width: 1440px;
+    height: 587px;
+    padding: 0 20px;
+}
+
+.form .page-twoo .container {
+    width: 100%;
+    height: 100%;
+    padding: 100px 50px;
+    position: relative;
+}
+
+.form .page-twoo .container img {
+    position: absolute;
+    left: 12px;
+    bottom: 74px;
+}
+
+.form .page-twoo .container form {
+    width: 1300px;
+    height: 387px;
+    border-radius: 32px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+
+.form .page-twoo .container form .text {
+    width: 642px;
+    height: 330px;
+    position: relative;
+}
+
+.form .page-twoo .container form .text span {
+    position: absolute;
+    top: 59.12px;
+    left: 60px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+
+.form .page-twoo .container form .text h1 {
+    width: 431px;
+    position: absolute;
+    left: 60px;
+    top: 85.12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+
+.form .page-twoo .container form .inps {
+    width: 522px;
+    height: 252px;
+    margin-top: 59.88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form .page-twoo .container form .inps input {
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    height: 82px;
+    width: 522px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-left: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form .page-twoo .container form .inps button {
+    padding: 9px 15px 10px 19px;
+    background: #118DA8;
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 87px;
+}
