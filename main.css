@@ -532,3 +532,94 @@ header .nav .nav-menu {
     line-height: 29px;
     color: rgba(255, 255, 255, 0.7);
 }
+
+/*----------------------------------------- About page Finish */
+/* Footer */
+footer {
+    width: 1440px;
+    height: 438px;
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bar {
+    width: 1300px;
+    height: 238px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bar .footer-logo {
+    width: 447.14px;
+    height: 222px;
+    position: relative;
+}
+
+.footer-bar .footer-logo>img {
+    width: 222.82px;
+    height: 45.47px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-bar .footer-logo .box {
+    position: absolute;
+    top: 66.11px;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    padding-right: 361px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-bar .footer-menu1, .footer-menu2 {
+    height: 222px;
+    width: 179px;
+    list-style: none;
+    padding-bottom: 84.87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-bar .footer-menu1 li a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-bar .footer-menu2{
+    padding-bottom: 10.88px;
+}
+.footer-bar .footer-menu2 li a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-bar .footer-menu2 {
+    height: 222px;
+    width: 179px;
+}
+
+.footer-bar .footer-icons {
+    width: 447.14px;
+    height: 32px;
+    padding-right: 221px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
