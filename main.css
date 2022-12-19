@@ -470,3 +470,65 @@ header .nav .nav-menu {
     color: rgba(255, 255, 255, 0.7);
     width: 87px;
 }
+
+/*----------------------------------------- Form Page Finish */
+/* About Page */
+.about {
+    width: 1440px;
+    height: 901px;
+    background: #191919;
+    padding: 0 20px;
+}
+
+.about .container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 100px 50px;
+}
+
+.about .container .card {
+    width: 423px;
+    height: 321px;
+    background: #000000;
+    border-radius: 32px;
+    padding-left: 50px;
+    padding-top: 54px;
+}
+
+.about .container .card .stars {
+    margin-bottom: 20px;
+    width: 110px;
+    height: 16.36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .container .card .stars .item {
+    width: 17px;
+    height: 16px;
+    clip-path: polygon(49% 1%, 69% 29%, 98% 35%, 74% 60%, 79% 91%, 50% 76%, 21% 91%, 26% 59%, 2% 35%, 32% 30%);
+    background: #FCFF51;
+}
+
+.about .container .card h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    width: 313px;
+    margin-bottom: 20px;
+}
+
+.about .container .card p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+}
